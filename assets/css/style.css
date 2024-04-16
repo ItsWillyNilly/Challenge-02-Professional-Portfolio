@@ -1,3 +1,10 @@
+* {
+    font-family: Tahoma, sans-serif;
+    box-sizing:border-box;
+    padding:0%;
+    margin: 0%;
+}
+
 .navbar {
     padding: 44 px, 36px;
     font-family: Tahoma, sans-serif;
@@ -20,11 +27,128 @@
 .logo-section-content {
     position: relative;
     float: left;
+    text-decoration: none;
+    color: #333333
 }
 
 .logo {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    padding-left: 24px;
 }
 
+/* .navigation{
+    display: flex;
+    align-items: center;
+    flex: 0 auto;
+} */
+
+.navibar{
+    position: relative;
+    float: right;
+}
+
+.links {
+    transition: color 800ms ease;
+    color: #191a17b3;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navi-links-margin {
+    padding-left: 16px;
+}
+
+.navi-links-position {
+    margin-left: 0px;
+    padding: 14px 8px;
+
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 20px;
+    text-align: left;
+    /* margin-right: auto; */
+}
+
+a{
+    background-color: transparent;
+    
+}
+
+.links:hover {
+    color: #c00000
+}
+
+
+/* This is the section for the body of the page */
+.hero {
+
+}
+
+img {
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;   
+}
+
+/* Center text on the hero image */
+.center {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-family: Tahoma, sans-serif;
+    color: white;
+}
+
+  .subheader {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 24px;
+    padding-top: 24px;
+    display: flex;
+  }
+
+  .description {
+    font-size: 16px;
+    /* margin-left: 24px; */
+    color: #191a17b3;
+    display: inline-block;
+    padding: 24px;
+  }
+
+/* Polaroid style image containers */
+
+div.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+.polaroid-element {
+    display: block;
+    padding: 24px;
+}
+
+.polaroid-element:hover {
+    opacity: .7;
+}
+
+.lower-polaroid-elements {
+    display: flex;
+}

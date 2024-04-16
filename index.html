@@ -6,19 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>William's Coding Portfolio</title>
+    <title>William's Developer Portfolio</title>
 </head>
 
 <body>
-    <h1>Welcome to my portfolio!</h1>
 
-<div class = "navbar">
-        <div class = "menu-top">
-            <div class="logo-section">
-                <div class="logo-section-content">
-                    <div class="logo">William Lee</div>
-                </div>
-            </div>    
+<!-- This is the navbar at the top of the page    -->
+<navbar class = "navbar" id="Home">
+        <menu-top class = "menu-top">
+            <!-- This is the logo section on the top left. -->
+            <logo-section class="logo-section">
+                <logo-section-content class="logo-section-content">
+                    <a href="#Home" title="Welcome to my portfolio!" class = "logo-section-content">
+                        <logo class="logo">William Lee</logo>
+                    </a>    
+                </logo-section-content>
+            </logo-section> 
+            
+            <!-- This it the menu bar on the top right. -->
+            <nav class="navi-links-position">
+                <a href="mailto:willcylee@gmail.com" title="Email me!" class="links navi-links-margin">Email</a>
+                <a href="#Work" title="Completed Coursework" class="links navi-links-margin">Work</a>
+                <a href="#About me" title="Learn more" class="links navi-links-margin">About Me</a>            
+            </nav>
+        </menu-top>
+    </navbar>
+
+<!-- This is the "hero" image of the webpage. -->
+<header>
+    <img src= "assets/images/IMG_9605.JPG" alt="Me at the Golden Gate Bridge">
+    <h1 class="center">Hi, I'm William! Welcome to my website!</h>
+</header>
+
+<!-- This is the content of the page -->
+<subheader class="subheader" id="Work">
+    Work
+</subheader>
+
+<description class="description">Here is a collection of some of my most recent work. Stay tuned for future projects that will be posted here!</description>
+
+<polaroid-element class="polaroid-element">
+    <div class="polaroid">
+        <img src="assets/images/Screenshot 2024-04-07 at 11.21.17 PM.png" alt="Challenge-01" style="width: 100%">
+        <div class="container">
+            <a href="challenge-01" class="links">Challenge-01 | Code Refactoring</a>
         </div>
-</div>
+        </div>
+</polaroid-element>
+
+<section class="lower-polaroid-elements">
+    <polaroid-element class="polaroid-element">
+        <div class="polaroid">
+            <img src="assets/images/Screenshot 2024-04-07 at 11.21.17 PM.png" alt="Coming soon!" style = "width: 100%;">
+            <div class="container">
+                <a href="challenge-02" class="links">Challenge-02 | Professional Portfolio</a>
+                </div>
+        </div>
+    </polaroid-element>
+
+    <polaroid-element class="polaroid-element">
+        <div class="polaroid">
+            <img src="assets/images/Screenshot 2024-04-07 at 11.21.17 PM.png" alt="Challenge-01" style="width: 100%">
+            <div class="container">
+                <a href="challenge-03" class="links">Challenge-03 | Employee Payroll Tracker</a>
+            </div>
+            </div>
+    </polaroid-element>
+</section>
+
+<subheader class="subheader" id="About me">
+    About Me
+</subheader>
+
+<description class="description">Hello, world! I'm William, a passionate UI designer known for my unwavering dedication to detail and an unquenchable thirst for creating user-centered digital experiences. With a foundation in quality assurance, I've learned that the devil truly lies in the details, and it's my mission to make sure every pixel and interaction counts.</description>
+
 </body>
