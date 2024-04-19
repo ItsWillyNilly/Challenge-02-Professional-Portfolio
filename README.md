@@ -31,7 +31,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Screenshot of the website
-Screenshot <img src="Screenshot 2024-04-18 at 6.01.59 PM.png">
+Screenshot <img src="assets/images/Screenshot 2024-04-18 at 6.01.59 PM.png">
 
 ## Website Link
 https://itswillynilly.github.io/Challenge-02-Professional-Portfolio/#Home
